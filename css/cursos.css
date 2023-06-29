@@ -1,0 +1,220 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+p, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*🌊🌊🌊🌊🌊🌊🌊🌊🌊🌊🌊🌊🌊 NAVBAR 🌊🌊🌊🌊🌊🌊🌊🌊🌊🌊🌊🌊🌊*/
+header {
+    height: 70px;
+    border: none;
+    align-items: stretch;
+    background: #00205b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*🔥🔥🔥🔥🔥 logtit 🔥🔥🔥🔥🔥*/
+#logtit {
+    display: flex;
+}
+/*🔥🔥🔥🔥🔥 Logo 🔥🔥🔥🔥🔥*/
+#logo {
+    display: flex;
+    align-items: center;
+    margin: 0 15px ;
+}
+/*🔥🔥🔥🔥🔥 Titulos 🔥🔥🔥🔥🔥*/
+#titulos {
+    display: flex;
+    align-items: center;
+    transform: translate(-85px);
+}
+#titulos a {
+    font-size: 90%;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    text-decoration: none;
+    transition: 0.2s;
+    color: white;
+}
+#titulos a:hover {
+    background: white;
+    color: #00205b;
+    border: none;
+    font-weight: 700;
+}
+#one {
+    border-bottom: 3px solid;
+    font-weight: 700;
+}
+/*🔥🔥🔥🔥🔥 Iconos 🔥🔥🔥🔥🔥*/
+#iconos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#iconos a {
+    font-size: 107%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    transition: 0.2s;
+}
+#iconos a:hover {
+    background: #e3e3e3;
+    color: #00205b;
+}
+#perfil {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: lightgray;
+    border: none;
+    margin: 0 40px 0 15px;
+}
+#perfil p {
+    color: #00205b;
+}
+
+
+/*🌊🌊🌊🌊🌊🌊🌊🌊🌊🌊🌊🌊🌊 CONTENT 🌊🌊🌊🌊🌊🌊🌊🌊🌊🌊🌊🌊🌊*/
+main {
+    height: 100vh;
+    border: solid;
+}
+
+
+/*🔥🔥🔥🔥🔥 Section 🔥🔥🔥🔥🔥*/
+section {
+    float: left;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: deepskyblue;
+}
+section a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    padding: 15px 10px;
+    background: transparent;
+}
+section a:hover {
+    background: white;
+    color: deepskyblue;
+}
+.dropdown-menu {
+    border: none;
+    width: 230px;
+    padding: 0;
+    border-radius: 0;
+}
+.dropdown-menu a {
+    font-size: 19px;
+    padding: 3px 5px;
+    text-transform: none;
+    color: deepskyblue;
+}
+.dropdown-menu a:hover {
+    background: deepskyblue;
+    color: white;
+}
+
+
+/*🔥🔥🔥🔥🔥 Cuadrado 🔥🔥🔥🔥🔥*/
+#content {
+    float: left;
+    margin: 50px 0 0 90px;
+    width: 70%;
+}
+#titulo {
+    width: max-content;
+    border-bottom: 1.5px solid gray;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#cuadrado {
+    position: relative;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    box-shadow: 0 0 5px lightgray,
+                0 0 10px lightgray;
+}
+#subti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 60px;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+#subti p {
+    background: none;
+    border: none;
+    font-size: 150%;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+#contenido {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+    width: 100%;
+    height: 100px;
+    background: rgba(128, 128, 128, 0.2);
+}
+#contenido a {
+    border: 1px dotted deepskyblue;
+    background: ghostwhite;
+    padding: 8px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+#contenido a:hover {
+    background: dodgerblue;
+    color: white;
+    border: 1px dotted white;
+}
+
+#docente {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    border-top-right-radius: 5px;
+}
+#docente p {
+    font-size: 110%;
+}
+
+
+#contenido p, #contenido div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+

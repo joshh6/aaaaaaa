@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 90px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 280px;
+    margin-left: 80px;
+}
+p {
+    margin: 0 120px 0 250px;
+    font-size: 25px;
+    font-weight: bold;
+}
+span {
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+video {
+    width: 1000px;
+    margin: 2% 19%;
+}
+
+
